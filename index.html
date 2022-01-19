@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Menu! </title>
+		<script src="https://simplycodingcourses.com/files/simplyjs/simply.js"> 
+</script>
+	<script>
+		function start(){
+			sjs.open();
+			var menu_text = new 
+		sjs.Text("MENU!",28,"pink");
+		menu_text.centerH();
+
+			var game_text = new sjs.Text("Use the arrow keys to control the mermaid. Only collect clams smaller than you! Collect pearl necklaces to power up!",28,"white");
+					game_text.centerH().offset(30,50);
+
+					var startBtn = new sjs.Button("Start:", function(){
+				window.location = "Mermaid.html";
+				});
+
+				startBtn.center();
+
+				var info_text = new sjs.Text("Created By: Alessandra Hoover",20,"white");
+
+				info_text.bottom().centerH();
+
+		}
+		</script>
+	</head>
+	<body onload="start()">
+		<h1> Mermaid Game! </h1>
+
+		<div id="target" style="margin:auto;background:black;">
+	</div>
+		</body>
+</html>
