@@ -1,1 +1,0 @@
-# tiratae.github.io
